@@ -712,11 +712,12 @@ li a.active {
 }
 .footer p {
     font-size: 12px;
-    color: #000;
+/*    color: #000;*/
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     margin: 0;
-    padding: 25px 0;
+    padding-top: 10px;
+	padding-bottom: 1px;
 }
 .footer a i.fa {
     font-size: 24px;
