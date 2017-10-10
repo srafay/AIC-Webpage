@@ -22,11 +22,26 @@ a:hover{
 	text-decoration:none;
 	color:#21618C;
 }
+.rounded-circle{
+	border-radius:50%;
+}
+.img-fluid 
+{max-width:100%;
+height:auto
+}
+.d-block {
+	display:block;
+}
+.mx-auto {
+	margin-right:auto!important;
+	margin-left:auto!important;
+	}
 /*a:visited,*/
 a {
     text-decoration: none;
 	color:#fff;
 }
+
 h1,
 h2 {
     text-transform: uppercase;
@@ -348,6 +363,7 @@ li a.active {
 .general-img img {
     position: absolute;
 }
+
 /*service area*/
 
 .service {
@@ -358,8 +374,8 @@ li a.active {
 .service h2 {
     font-size: 90px;
     color: #fff;
-    margin-top: 70px;
-    margin-bottom: 0;
+    margin-top: 50px;
+    margin-bottom: 10px;
 }
 .service h4 {
     font-size: 24px;
@@ -468,6 +484,21 @@ li a.active {
     margin-top: 50px;
     margin-bottom: 0;
 }
+.team h3 {
+    font-size: 30px;
+    color: #42b3e5;
+    
+    margin-bottom: 0;
+	font-weight: bold;
+}
+.team p {
+    font-size: 20px;
+    color:#171717 ;
+   
+    margin-bottom: 50px;
+}
+
+
 .team h4 {
     font-size: 24px;
     color: #737373;
@@ -1112,4 +1143,9 @@ responsive area
 .col-max {
     /* custom max width */
     max-width:320px;
+}
+
+.img-custom{
+    width: 100%;
+    height: auto;
 }
